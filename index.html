@@ -1,41 +1,60 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<!doctype html>
+<html lang = "pt-br">
 <head>
-    <meta charset="UTF-8">
+	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IEédge">
     <meta name="description" content="Um formulário roxo para o loginem uma empresa ficticia">
     <meta name="keywords" content="formulario, html, css, programacao, estudante, roxo, projeto, teste">
     <meta name="author" content="Janderson Lima">
     <link rel="stylesheet" type="text/css" href="css/index.css">
-    <title>Formulário Roxo</title>
+    <title>Formulário Roxo2</title>
 </head>
 <body>
     <div class="odin">
         <div class="main">
             <section class="one">
-                <h1> CopiaDosGatos</h1>
+                <h1>PROJETO NERV <br>EVANGELION - 001</h1>
                 <div id="linha1"><hr></div>
-                <p>so um teste, boy</p>
+                <p>Um formulário baseado na estética da obra de Hiadeki Anno</p>
+                <footer>
+                    <p>Copyright © 2023 Janderson Lima. Todos os direitos reservados.</p>
+                </footer>
             </section>
             <section class="two">
-                <p><a href="#">Entrar</a></p>
-                <h2> Inscreva-se!</h2>
+                <div class="dois">
+                <p><a href="#">Status</a></p>
+                <h2> Alinhe seu destino a nossa organização!</h2>
                 <form>
                     <div class="bloco1">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" placeholder="Digite um email válido">
+                        <fieldset>
+                        <label for="email">Email para contato</label>
+                        <input type="email" id="email" placeholder="Digite um email válido" required>
+                        </fieldset>
                     </div>
                     <div class="bloco2">
-                        <label for="senha">Senha</label>
-                        <input type="password" id="senha" placeholder="Crie uma senha forte">
+                        <fieldset>
+                        <label for="eva">Qual EVA deseja pilotar?</label>
+                        <input type="text" id="eva" placeholder="EVA-001/EVA-001/EVA-002" required>
+                    </fieldset>
                     </div>
                     <div class="bloco3">
-                        <label for="usuario">Nome de usuário</label>
-                        <input type="text" id="usuario" placeholder="Crie seu nome de usuário" class="grande">
+                        <fieldset>
+                        <label for="usuario" id="label">Nome de usuário</label>
+                        <input type="text" id="usuario" placeholder="Digite seu nome de piloto" class="grande" required>
+                        </fieldset>
                     </div>
+                    <div class="botao">
+                        <button type="submit">Enviar</button>
+                    </div>
+                </div>
                 </form>
-            </section>   
+                <div class="tres">
+            
+                    <img src="img/evangelion.jpg">
+                </div>
+            </section>
+            
         </div>
     </div>
 </body>
