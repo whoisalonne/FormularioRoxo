@@ -3,119 +3,118 @@ padding: 0}
     
       @font-face {
         font-family: evangelion-fino;
-        src: url('img/TimesNew.otf.otf') format('opentype');
-      }
-      h1 {background: limegreen;
-      font-family: evangelion-fino;}
+        src: url('img/TimesNew.otf.otf') format('opentype');}
     
       .odin {width: 100%;
-        height:100%;
-        display:flex;
-        justify-content: center;
-        margin-top: 32px;}
+       height:100%;
+       display:flex;
+       justify-content: center;
+       margin-top: 32px;}
         
-        /* MAIN È A DIV QUE COMPOE O CARD EM SI*/
+      /* MAIN È A DIV QUE COMPOE O CARD EM SI*/
         
         .main {background: yellow;
-        width: 900px;
-        height:550px;
-        display:flex;
-        flex-direction: row;
-        webkit-box-shadow: 0px 0px 8px 2px #000000;
-        moz-box-shadow: 0px 0px 8px 2px #000000;
-        box-shadow: 0px 0px 9px 2px darkgrey;}
+         width: 900px;
+         height:550px;
+         display:flex;
+         flex-direction: row;
+         webkit-box-shadow: 0px 0px 8px 2px #000000;
+         moz-box-shadow: 0px 0px 8px 2px #000000;
+         box-shadow: 0px 0px 9px 2px darkgrey;}
         
-        /* AQUI COMEÇA O CSS DA DIV ONE (ROXA)*/
+      /* AQUI COMEÇA O CSS DA DIV ONE (ROXA)*/
         
         .one {background: blueviolet;;
-        width: 45%;
-        height: 100%;}
+         width: 45%;
+         height: 100%;}
         
         .one h1, p {text-align: center;
-        color: black;}
-    
-        footer {margin-top: 187px;
-        font-size: 12px;
-      background: darkorange;}
+         color: black;}
+
+        .one h1 {background: limegreen;
+          font-family: evangelion-fino;
+          margin-top: 220px;}
+
+        .one hr {border-color: black;}
+
+        #linha1 {margin-left: 18%;
+          margin-right:18%;}
     
         .one p {margin-left: 20px;
-        margin-right: 20px;
-        font-weight: bold;}
-    
-        .one h1{margin-top: 220px;}
-        
-        #linha1 {margin-left: 18%;
-        margin-right:18%;}
-        
-        .one hr {border-color: black;}
-        /* AQUI COMEÇA O CSS DA DIV TWO (PRETA)*/
+         margin-right: 20px;
+         font-weight: bold;}
+
+        .one footer {margin-top: 190px;
+         font-size: 11px;
+         background: darkorange;}
+      
+      /* AQUI COMEÇA O CSS DA DIV TWO (PRETA)*/
         
         .two {width: 55%;
-        height:100%;
+         height:100%;
+         background: black;}
         
-        background: black;}
-        
+      /*DENTRO DO TWO EXISTEM MAIS DUAS DIVS "DOIS" E "TRES"*/
+
         .dois {width:100%;
-        height:55%;
-        background-color: black;}
+         height:55%;}
+
+        .dois a {text-decoration: none;
+          color: white;}
+
+        .dois p {text-align: right;
+         margin-right: 20px;}
     
         .dois h2 {color:white;
-        position:relative;
-        display:inline-block;
-        margin-left: 10%;}
+         position:relative;
+         display:inline-block;
+         margin-left: 10%;}
         
         .dois h2:hover {border-bottom: 1px solid white;}
-    
-        .dois a {text-decoration: none;
-        color: white;}
         
-        .dois p {text-align: right;
-        margin-right: 20px;}
-        
-        form  {width: 100%;
+        .two form  {width: 100%;
         height: 449px;
         display: flex;
         flex-flow: row wrap;
         justify-content: space-around;}
         
-        label {display:block;
+        .two label {display:block;
         text-align: center;
         color:white}
         
-        input {border: 1px solid;
+        .two input {border: 1px solid;
         margin-top: 10px;}
         
-        .grande {width: px;
-        margin-left: 2px;}
-        
-        fieldset {border-radius: 15px;}
+        .two fieldset {border-radius: 15px;}
     
-        .bloco1 {width: 36%;
+       .bloco1 {width: 36%;
         height: 20%;
         margin-top: 20px;}
         
-        .bloco2 {width: 36%;
+       .bloco2 {width: 36%;
         height: 20%;
         margin-top: 20px;
         margin-right: 23px;}
         
-        .bloco3 {width:30%;
+       .bloco3 {width:30%;
         height: 20%;
         margin-right: 55px;
         margin-bottom: 280px;}
     
-        .botao {width: 36%;
+       .botao {width: 36%;
         height: 15%;}
     
-        button {padding-left: 40px;
-          padding-right: 40px;
-          padding-bottom: 22px;
-          padding-top: 22px;
-          margin-left: 20px;
-          border-radius: 10px;}
-    
-        .tres {width: 100%;
+       .two button {padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 22px;
+        padding-top: 22px;
+        margin-left: 20px;
+        border-radius: 10px;}
+
+    /* AQUI COMEÇA A DIV DA IMAGEM (DIV TRES)*/
+
+      .tres {width: 100%;
         height:215px;}
     
-        img {width:100%;
-        height:212px}    
+      .tres img {width:100%;
+      height:212px}    
