@@ -1,0 +1,38 @@
+body {background: margin:0;
+padding:0;}
+
+/* ODIN È A DIV QUE ESTA EM VOLTA DA DIV MAIN. ELE È O "PAI DE TODOS"*/
+
+.odin {display:flex;
+justify-content: center;
+margin-top: 32px;}
+
+/* MAIN È A DIV QUE COMPOE O CARD EM SI*/
+
+.main {background: black;
+width: 900px;
+height:550px;
+display:flex;
+webkit-box-shadow: 0px 0px 8px 2px #000000;
+moz-box-shadow: 0px 0px 8px 2px #000000;
+box-shadow: 0px 0px 9px 2px darkgrey;}
+
+/* AQUI COMEÇA O CSS DA DIV ONE (ROXA)*/
+
+.one {background: blueviolet;;
+width: 45%;}
+
+.one h1, p {text-align: center;
+color: black;}
+
+.one h1{margin-top: 220px;}
+
+/* AQUI COMEÇA O CSS DA DIV TWO (PRETA)*/
+
+.two h2{color:white;
+border: 1px solid;
+text-align: center;}
+
+
+
+
