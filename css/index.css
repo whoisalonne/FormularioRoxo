@@ -34,9 +34,10 @@ color: black;}
 .two {width: 55%;
 height:100%;
 border: 1px solid white;
-background: red;}
+background: black;}
 
-.two h2 {text-align: center;}
+.two h2 {color:white;
+    text-align: center;}
 
 
 
