@@ -3,7 +3,9 @@ padding:0;}
 
 /* ODIN È A DIV QUE ESTA EM VOLTA DA DIV MAIN. ELE È O "PAI DE TODOS"*/
 
-.odin {display:flex;
+.odin {width: 100%;
+height:100%;
+display:flex;
 justify-content: center;
 margin-top: 32px;}
 
